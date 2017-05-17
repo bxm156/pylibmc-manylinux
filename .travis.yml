@@ -10,7 +10,7 @@ env:
 before_install:
 - docker pull quay.io/pypa/manylinux1_x86_64
 - docker run --name "aaa" quay.io/pypa/manylinux1_x86_64 /bin/sh -c "cd && yum update -y && mkdir /wheelhouse &&
-  yum install cyrus-sasl-devel -y &&
+  yum install cyrus-sasl-devel zlib-devel -y &&
   wget https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz &&
   tar -xvf libmemcached-1.0.18.tar.gz &&
   cd libmemcached-1.0.18 &&
