@@ -10,7 +10,7 @@ env:
 before_install:
 - docker pull quay.io/pypa/manylinux1_x86_64
 - docker run --name "aaa" quay.io/pypa/manylinux1_x86_64 /bin/sh -c "cd && yum update -y && mkdir /wheelhouse &&
-  yum install libmemcached -y &&
+  yum install libmemcached-dev -y &&
   git clone -b ${VERSION} git://github.com/lericson/pylibmc/ && cd pylibmc &&
   /opt/python/${PY27}/bin/pip wheel . -w /wheelhouse &&
   auditwheel repair /wheelhouse/pylibmc-${VERSION}-${PY27}-linux_x86_64.whl -w /wheelhouse &&
