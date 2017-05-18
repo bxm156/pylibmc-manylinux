@@ -12,7 +12,7 @@ architectures. 32 bit support is possible, but not included in this example (who
 
 Because these wheels need to be compiled on CentOS 5, this example uses Docker
 running on Travis-CI to compile (you don't need to use docker at all to _use_
-these wheels, it's just to compile them). The docker-based build environment
+these wheels, it's just to compile them). The possible docker-based build environment
 images are:
 
 - 64-bit image (x86-64): ``quay.io/pypa/manylinux1_x86_64`` [![Docker Repository on Quay](https://quay.io/repository/pypa/manylinux1_x86_64/status "Docker Repository on Quay")](https://quay.io/repository/pypa/manylinux1_x86_64)
