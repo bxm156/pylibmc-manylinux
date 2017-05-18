@@ -1,6 +1,6 @@
 pylibmc-manylinux
 =====================
-Example for building a pylibmc wheels for Linux with Travis-CI
+Example for building pylibmc wheels for Linux with Travis-CI
 
 [![Build Status](https://travis-ci.org/bxm156/pylibmc-manylinux.svg?branch=master)](https://travis-ci.org/bxm156/pylibmc-manylinux)
 
