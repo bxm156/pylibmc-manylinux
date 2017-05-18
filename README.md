@@ -7,8 +7,8 @@ Example for building pylibmc wheels for Linux with Travis-CI
 
 This is an example of how to use Travis-CI to build
 [PEP 513](https://www.python.org/dev/peps/pep-0513/)-compatible manylinux1
-wheels for pylibmc. It supports both Python 2 and 3 on 32 and 64 bit linux
-architectures.
+wheels for pylibmc. It supports both Python 2 and 3 on 64 bit linux
+architectures. 32 bit support is possible, but not included in this example (who even uses 32 bit anymore?)
 
 Because these wheels need to be compiled on CentOS 5, this example uses Docker
 running on Travis-CI to compile (you don't need to use docker at all to _use_
