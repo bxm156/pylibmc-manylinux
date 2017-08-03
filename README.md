@@ -4,6 +4,9 @@ Example for building pylibmc wheels for Linux with Travis-CI
 
 [![Build Status](https://travis-ci.org/bxm156/pylibmc-manylinux.svg?branch=master)](https://travis-ci.org/bxm156/pylibmc-manylinux)
 
+**tldr:** To use this manylinux wheel, simple add the following to your requirements.txt:
+`https://github.com/bxm156/pylibmc-manylinux/releases/download/v1.5.2/pylibmc-1.5.2-cp27-cp27mu-manylinux1_x86_64.whl`
+
 
 This is an example of how to use Travis-CI to build
 [PEP 513](https://www.python.org/dev/peps/pep-0513/)-compatible manylinux1
